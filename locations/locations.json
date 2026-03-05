@@ -13,7 +13,7 @@
 					{
 						"name": "Fishing Key Pickup",
 						"access_rules": [
-							"spring"
+							"springs"
 						],
 						"visibility_rules": [
 							"op_keysanity_on"
@@ -22,7 +22,7 @@
 					{
 						"name": "Hedge Key Pickup",
 						"access_rules": [
-							"shovel"
+							"shovelpower"
 						],
 						"visibility_rules": [
 							"op_keysanity_on"

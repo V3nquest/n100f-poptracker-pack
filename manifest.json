@@ -1,9 +1,10 @@
 ﻿{
 	"name": "Scooby Doo Night of 100 Frights Archipleago",
 	"game_name": "Scooby Doo Night of 100 Frights",
-	"package_version": "0.0.0.2",
+	"package_version": "0.0.0.3",
 	"package_uid": "ap_n100f",
-	"author": "vgm5, DeltaJordan",
+	"platform": "GameCube",
+	"author": "V3nquest, vgm5, DeltaJordan",
 	"variants": {
 		"standard": {
 			"display_name": "Map Tracker",
@@ -12,5 +13,10 @@
 			]
 		}
 	},
-	"versions_url": ""
+	"var_itemsonly": {
+		"display_name": "Items Only",
+		"flags": [
+			"ap"
+		]
+	}
 }

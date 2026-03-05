@@ -36,7 +36,7 @@
 						},
 						{
 							"type": "group",
-							"header": "Tokens",
+							"header": "Tokens and Snacks",
 							"dock": "top",
 							"content": {
 								"type": "layout",
@@ -47,13 +47,13 @@
 						},
 						{
 							"type": "group",
-							"header": "Snacks",
+							"header": "Bosses",
 							"dock": "top",
 							"content": {
 								"type": "layout",
 								"h_alignment": "center",
 								"v_alignment": "center",
-								"key": "snack_item_grid"
+								"key": "boss_item_grid"
 							}
 						}
 					]

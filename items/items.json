@@ -124,6 +124,31 @@
 		"img": "/images/items/gumwad.png",
 		"codes": "maxgumammo"
 	},
+	// Bosses
+	{
+		"name": "Black Knight",
+		"type": "toggle",
+		"img": "/images/items/bosses/black_knight.png",
+		"codes": "bossblackknight"
+	},
+	{
+		"name": "Green Ghost",
+		"type": "toggle",
+		"img": "/images/items/bosses/green_ghost.png",
+		"codes": "bossgreenghost"
+	},
+	{
+		"name": "Red Beard",
+		"type": "toggle",
+		"img": "/images/items/bosses/red_beard.png",
+		"codes": "bossredbeard"
+	},
+	{
+		"name": "Mastermind",
+		"type": "toggle",
+		"img": "/images/items/bosses/bossmastermind.png",
+		"codes": "bossmastermind"
+	},
 	// Monster Tokens
 	{
 		"name": "Black Knight Token",
@@ -846,14 +871,14 @@
 		"codes": "tokensanity",
 		"stages": [
 			{
-				"img": "/images/items/tokens/mastermind.png",
+				"img": "/images/items/tokens/tar.png",
 				"img_mods": "@disabled",
 				"codes": "op_tokensanity_off",
 				"inherit_codes": false,
 				"name": "Tokensanity Disabled"
 			},
 			{
-				"img": "/images/items/tokens/mastermind.png",
+				"img": "/images/items/tokens/tar.png",
 				"codes": "op_tokensanity_on",
 				"inherit_codes": false,
 				"name": "Tokensanity Enabled"
