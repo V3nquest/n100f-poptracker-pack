@@ -16,7 +16,8 @@
 							"springs"
 						],
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
@@ -25,7 +26,8 @@
 							"shovelpower"
 						],
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
@@ -68,7 +70,14 @@
 				"access_rules": [
 					"@Hub/Mystery Machine"
 				],
-				"sections": [],
+				"sections": [
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
 				"map_locations": []
 			}
 		]
@@ -84,12 +93,13 @@
 				"sections": [
 					{
 						"name": "Headless Specter Token",
-						"access_rules": "spring"
+						"access_rules": "springs"
 					},
 					{
 						"name": "Key Pickup",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -127,7 +137,14 @@
 					{
 						"name": "Key Pickup",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
 						]
 					}
 				],
@@ -167,25 +184,29 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 4",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -203,8 +224,21 @@
 					"op_keysanity_on,@Mystic Manor/Mind Your Manors! 2,$has|mym2key|4",
 					"op_keysanity_off,@Mystic Manor/Mind Your Manors! 2"
 				],
-				"sections": [],
-				"map_locations": []
+				"sections": [
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "manor",
+						"x": 960,
+						"y": 715
+					}
+				]
 			},
 			{
 				"name": "All Scares Upstairs! 1",
@@ -264,8 +298,21 @@
 				"access_rules": [
 					"@Mystic Manor/All Scares Upstairs! 3"
 				],
-				"sections": [],
-				"map_locations": []
+				"sections": [
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "manor",
+						"x": 1080,
+						"y": 397
+					}
+				]
 			},
 			{
 				"name": "Don't Look Down, Scooby-Doo! 1",
@@ -297,19 +344,22 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -341,6 +391,12 @@
 							"$has|attic2key|3,$has|knight2key|4",
 							"boots"
 						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
 					}
 				],
 				"map_locations": [
@@ -365,19 +421,22 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -386,6 +445,91 @@
 						"map": "manor",
 						"x": 865,
 						"y": 290
+					}
+				]
+			},
+			{
+				"name": "Panic in the Attic! 4",
+				"access_rules": [
+					"@Mystic Manor/Panic in the Attic! 3"
+				],
+				"sections": [
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "manor",
+						"x": 672,
+						"y": 183
+					}
+				]
+			},
+			{
+				"name": "A Dark and Stormy Knight! 2",
+				"sections": [
+					{
+						"name": "Key Pickup 1",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 2",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 3",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 4",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "manor",
+						"x": 670,
+						"y": 395
+					}
+				]
+			},
+			{
+				"name": "A Dark and Stormy Knight! 3",
+				"access_rules":[
+					"helmetpower"
+				],
+				"sections": [
+					{
+						"name": "Black Knight Reward"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "manor",
+						"x": 770,
+						"y": 375
 					}
 				]
 			},
@@ -408,6 +552,12 @@
 						"name": "Robot Token",
 						"visibility_rules": [
 							"op_tokensanity_on"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
 						]
 					}
 				],
@@ -486,25 +636,29 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 4",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
@@ -513,7 +667,8 @@
 							"$has|creepy2key|4,helmet"
 						],
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -538,19 +693,28 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
 						]
 					}
 				],
@@ -572,7 +736,8 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -594,25 +759,35 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 4",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
 						]
 					}
 				],
@@ -659,19 +834,22 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -693,25 +871,29 @@
 					{
 						"name": "Key Pickup 1",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 2",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 3",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					},
 					{
 						"name": "Key Pickup 4",
 						"visibility_rules": [
-							"op_keysanity_on"
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
 						]
 					}
 				],
@@ -733,6 +915,12 @@
 				"sections": [
 					{
 						"name": "Soap Bubble Pickup"
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
 					}
 				],
 				"map_locations": [
@@ -742,6 +930,466 @@
 						"y": 480
 					}
 				]
+			},
+			{
+				"name": "Shock on the Dock 1",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Max Soap Ammo"
+					}
+					
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 475,
+						"y": 195
+					}
+				]
+			},
+			{
+				"name": "Shock on the Dock 2",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Max Gum Ammo"
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules":
+						[
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 571,
+						"y": 216
+					}
+				]
+			},
+			{
+				"name": "Fishy Clues for Scooby-Doo? 1",
+				"access_rules":[],
+				"sections": [
+					{
+						"name": "Tar Monster Token",
+						"visibility_rules": [
+							"op_tokensanity_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 880,
+						"y": 195
+					} 
+				]
+			},
+			{
+				"name": "Fishy Clues for Scooby-Doo? 2",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Key Pickup 1",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 2",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 3",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 4",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 1055,
+						"y": 215
+					}
+				]
+			},
+			{
+				"name": "Fishy Clues for Scooby-Doo? 3",
+				"access_rules": [],
+				"sections": []
+			},
+			{
+				"name": "Fishy Clues for Scooby-Doo? 4",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Ghost Diver Token",
+						"visibility_rules": [
+							"op_tokensanity_on"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 1055,
+						"y": 430
+					}
+				]
+			},
+			{
+				"name": "Fear on the Pier 1",
+				"access_rules": [],
+				"sections": []
+			},
+			{
+				"name": "Fear on the Pier 2",
+				"access_rules": [],
+				"sections": []
+			},
+			{
+				"name": "Fear on the Pier 3",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Spring Pickup"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 960,
+						"y": 320
+					}
+				]
+			},
+			{
+				"name": "Coast for some Ghosts! 1",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Max Gum Ammo"
+					},
+					{
+						"name": "Key Pickup 1",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 2",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 3",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 4",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 845,
+						"y": 535
+					}
+				]
+			},
+			{
+				"name": "Coast for some Ghosts! 2",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Caveman Token",
+						"visibility_rules": [
+							"op_tokensanity_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 860,
+						"y": 640
+					}
+				]
+			},
+			{
+				"name": "Coast for some Ghosts! 3",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Sea Creature Token",
+						"visibility_rules": [
+							"op_tokensanity_on"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 765,
+						"y": 665
+					}
+				]
+			},
+			{
+				"name": "Going Down Witch Way? 1",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 665,
+						"y": 640
+					}
+				]
+			},
+			{
+				"name": "Lighthouse Fright House! 1",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Ground Pound Pickup"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 710,
+						"y": 535
+					}
+				]
+			},
+			{
+				"name": "Lighthouse Fright House! 2",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 670,
+						"y": 320
+					}
+				]
+			},
+			{
+				"name": "Lighthouse Fright House! 3",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Max Soap Ammo"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 690,
+						"y": 770
+					}
+				]
+			},
+			{
+				"name": "Wreck on the Deck! 1",
+				"access_rules": [],
+				"sections": []
+			},
+			{
+				"name": "Wreck on the Deck! 2",
+				"access_rules": [],
+				"sections": []
+			},
+			{
+				"name": "Wreck on the Deck! 3",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Capt. Moody Token",
+						"visibility_rules": [
+							"op_tokensanity_on"
+						]
+					},
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 475,
+						"y": 770
+					}
+				]
+			},
+			{
+				"name": "Aghast by the Mast! 1",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Max Soap Ammo"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 375,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Aghast by the Mast! 2",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Redbeard Token",
+						"visibility_rules": [
+							"op_tokensanity_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 280,
+						"y": 750
+					}
+				 ]
+			},
+			{
+				"name": "Aghast by the Mast! 3",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Warp Gate",
+						"visibility_rules": [
+							"op_warps_on"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 280,
+						"y": 640
+					}
+				]
+			},
+			{
+				"name": "Shiver Your Timbers, Scooby! 1",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Key Pickup 1",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 2",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 3",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					},
+					{
+						"name": "Key Pickup 4",
+						"visibility_rules": [
+							"op_keysanity_on",
+							"op_keysanity_on_rings"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 145,
+						"y": 685
+					}
+				]
+			},
+			{
+				"name": "Shiver Your Timbers, Scooby! 2",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Redbeard Reward"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cove",
+						"x": 180,
+						"y": 535
+					}
+				 ]
 			}
 		]
 	}

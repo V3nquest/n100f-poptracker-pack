@@ -7,16 +7,22 @@
 	"author": "V3nquest, vgm5, DeltaJordan",
 	"variants": {
 		"standard": {
-			"display_name": "Map Tracker",
+			"display_name": "Map Tracker (Vertical)",
 			"flags": [
 				"ap"
 			]
-		}
-	},
-	"var_itemsonly": {
-		"display_name": "Items Only",
+		},
+		"v_horizontal": {
+		"display_name": "Map Tracker (Horizontal)",
 		"flags": [
 			"ap"
 		]
+		},
+		"var_items_only": {
+		"display_name": "Item Tracker",
+		"flags": [
+			"ap"
+		]
+		}
 	}
 }
